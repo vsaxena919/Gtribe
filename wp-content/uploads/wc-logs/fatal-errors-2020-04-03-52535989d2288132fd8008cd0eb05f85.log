@@ -1,0 +1,2 @@
+2020-04-03T14:05:58+00:00 CRITICAL Cannot declare class Debug_Bar, because the name is already in use in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/debug-bar/debug-bar.php on line 20
+
