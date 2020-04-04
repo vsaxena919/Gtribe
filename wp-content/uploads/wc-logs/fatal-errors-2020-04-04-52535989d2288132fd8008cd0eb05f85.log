@@ -1,0 +1,10 @@
+2020-04-04T22:11:57+00:00 CRITICAL Uncaught Error: Call to undefined function yz_author_box() in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/youzer/includes/public/core/class-yz-header.php:60
+Stack trace:
+#0 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(287): Youzer_Header->profile_header('')
+#1 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(false, Array)
+#2 /opt/bitnami/apps/wordpress/htdocs/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/youzer/includes/public/templates/profile-template.php(21): do_action('youzer_profile_...')
+#4 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/youzer/includes/public/core/functions/yz-404profile-functions.php(77): include('/opt/bitnami/ap...')
+#5 /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/youzer/includes/public/core/functions/yz-404profile-functions.php(59): yz_404_profile_template()
+#6 /opt/bitnami/apps/wordpress/htdocs/wp-includes/class-wp-hook.php(289) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/query-monitor/collectors/php_errors.php on line 82
+
