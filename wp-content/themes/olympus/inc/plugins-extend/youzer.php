@@ -80,10 +80,6 @@ function _action_olympus_yz_scripts() {
 	}
 
 	/* Disable unused font from Youzer */
-	wp_deregister_style( 'yz-opensans' );
-	wp_deregister_style( 'yz-roboto' );
-	wp_deregister_style( 'yz-lato' );
-
 	wp_dequeue_style( 'yz-opensans' );
 	wp_dequeue_style( 'yz-roboto' );
 	wp_dequeue_style( 'yz-lato' );

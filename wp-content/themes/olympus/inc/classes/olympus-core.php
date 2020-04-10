@@ -212,7 +212,7 @@ class Olympus_Core extends Olympus_Singleton {
                     'slug'     => 'youzer',
                     'source'   => 'http://up.crumina.net/plugins/youzer.zip',
                     'required' => true,
-                    'version'  => '2.4.1'
+                    'version'  => '2.4.2'
                 ),
             ) );
         }
